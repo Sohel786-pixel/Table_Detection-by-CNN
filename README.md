@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This project implements a **table detection model** using a **Convolutional Neural Network (CNN)**. The model is designed to detect tables within images, extract their bounding boxes, and classify the presence of tables in the image. It employs various techniques such as **data augmentation**, **object detection**, and **optical character recognition (OCR)** to improve prediction accuracy and table recognition.
-
-The project utilizes **TensorFlow**, **OpenCV**, **scikit-learn**, and several other libraries to build, train, evaluate, and visualize the model's predictions. It supports PDF table detection by converting PDF pages to images and performing OCR to extract column headers.
+This project implements a **table detection model** using a **Convolutional Neural Network (CNN)**. The model is designed to detect tables within images, extract their bounding boxes, and classify the presence of tables in the image. .
 
 ## Features
 
