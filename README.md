@@ -1,12 +1,12 @@
 # Table_Detection-by-CNN
 
-Overview
+#Overview
 This repository contains a machine learning pipeline to detect tables within images and PDFs. It employs a Convolutional Neural Network (CNN) model trained to detect tables and generate bounding boxes around them. The model outputs both bounding boxes and classification labels (table or not) to enable automated table detection in document images. The pipeline also includes tools for evaluating the model, visualizing predictions, and processing PDF documents to extract tables using Optical Character Recognition (OCR).
 
-Features
-Table Detection: The model detects tables in images and PDF pages, drawing bounding boxes around identified tables.
-Bounding Box Regression: The model performs bounding box regression to localize tables within the images.
-Classification: Classifies the presence of a table in the image (binary classification: table or not).
+#Features
+#Table Detection: The model detects tables in images and PDF pages, drawing bounding boxes around identified tables.
+#Bounding Box Regression: The model performs bounding box regression to localize tables within the images.
+#Classification: Classifies the presence of a table in the image (binary classification: table or not).
 PDF Processing: The pipeline can process PDF files, extracting images from each page and predicting tables with OCR support for extracting column headers.
 Data Augmentation: Includes data augmentation techniques to help the model generalize better by applying transformations like rotations, shifts, and brightness changes.
 Evaluation: Evaluate model performance using Mean Absolute Error (MAE) for bounding boxes and classification accuracy.
