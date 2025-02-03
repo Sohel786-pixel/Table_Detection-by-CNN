@@ -1,7 +1,5 @@
 # Table Detection Model README
 
-## Introduction
-
 This project implements a **table detection model** using a **Convolutional Neural Network (CNN)**. The model is designed to detect tables within images, extract their bounding boxes, and classify the presence of tables in the image. .
 
 ## Features
