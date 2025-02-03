@@ -29,11 +29,6 @@ The following Python libraries are required to run this project:
 - pytesseract
 - reportlab
 
-For **Google Colab** users, the necessary dependencies are installed automatically using the provided setup in the code. If running locally, the dependencies can be installed using `pip` as follows:
-
-```bash
-pip install tensorflow scikit-learn opencv-python-headless tqdm pdf2image pytesseract reportlab
-```
 
 ## File Structure
 
